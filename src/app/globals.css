@@ -1,0 +1,34 @@
+h1 {
+  color: #a7314f;
+}
+
+a {
+  color: #eef3f5;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #a7314f;
+}
+
+.movie-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.movie-list li {
+  list-style: none;
+  border: 1px solid rgb(235, 197, 71);
+  border-radius: 5px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  width: 100%;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(90, 177, 212, 0.815);
+}
+
+.movie-list li.featured {
+  font-weight: bold;
+}
