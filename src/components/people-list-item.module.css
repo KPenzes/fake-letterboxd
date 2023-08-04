@@ -1,0 +1,12 @@
+
+.peopleListItem {
+  list-style: none;
+  border: 1px solid rgba(90, 177, 212);
+  border-radius: 5px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  width: 100%;
+  padding: 16px;
+  box-shadow: 0 2px 5px  rgb(235, 197, 71, 0.815);
+}
