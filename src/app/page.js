@@ -1,5 +1,7 @@
 import { MovieList } from '../components/movie-list';
 import { PeopleList } from '../components/people-list';
+import NavMenu from '../components/nav-menu';
+import Link from 'next/link'
 
 export default function HomePage() {
   const appTitle = 'My Movie Library'
@@ -35,6 +37,7 @@ export default function HomePage() {
         }
       </p>
       <PeopleList people={people}/>
+      <NavMenu />
     </main>
   )
 }
