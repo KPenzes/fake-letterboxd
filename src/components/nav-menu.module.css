@@ -1,0 +1,19 @@
+.navMenu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 12px;
+  margin: 0;
+  padding: 5px;
+
+}
+
+.navMenu li {
+  list-style: none;
+  padding-right: 14px;
+  font-size: 19px;
+}
+
+.navMenu li a {
+  text-decoration: none;
+}

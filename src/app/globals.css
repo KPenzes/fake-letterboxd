@@ -1,12 +1,19 @@
 h1 {
-  color: #a7314f;
+  color: #774a56;
 }
 
-a {
-  color: #eef3f5;
+.flexBox {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/* a {
+  color: #282a2b;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
-  background-color: #a7314f;
-}
+  background-color: #e6b1be;
+  margin: 5px;
+} */

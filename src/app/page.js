@@ -1,7 +1,5 @@
 import { MovieList } from '../components/movie-list';
 import { PeopleList } from '../components/people-list';
-import NavMenu from '../components/nav-menu';
-import Link from 'next/link'
 
 export default function HomePage() {
   const appTitle = 'My Movie Library'
@@ -26,18 +24,20 @@ export default function HomePage() {
   ]
 
   return (
-    <main>
+    <>
       <h1>{displayTitle && appTitle}</h1>
-      <p>Here is a list of popular movies:</p>
-      <MovieList movies={movies}/>
-      <p>
-        {hasMoreMovies ? (
-          <a href="https://www.themoviedb.org/">See more</a>)
-          : ('Nothing more to see here.')
-        }
-      </p>
-      <PeopleList people={people}/>
-      <NavMenu />
-    </main>
+      <div className='flexBox'>
+        <div>
+          <MovieList movies={movies}/>
+          <p>
+            {hasMoreMovies ? (
+              <a href="https://www.themoviedb.org/">See more</a>)
+              : ('Nothing more to see here.')
+            }
+          </p>
+        </div>
+        <PeopleList people={people}/>
+      </div>
+    </>
   )
 }
