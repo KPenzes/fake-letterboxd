@@ -1,6 +1,7 @@
 import { MovieList } from '../components/movie-list';
 import { PeopleList } from '../components/people-list';
 
+
 export default function HomePage() {
   const appTitle = 'My Movie Library'
   const hasMoreMovies = true
